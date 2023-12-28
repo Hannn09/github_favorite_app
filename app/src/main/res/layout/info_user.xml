@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sumRepo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="64dp"
+        android:text="@string/_90"
+        style="@style/TextColor"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repository"
+        android:fontFamily="@font/poppins"
+        android:textSize="12sp"
+        style="@style/TextColor"
+        app:layout_constraintStart_toStartOf="@id/sumRepo"
+        app:layout_constraintEnd_toEndOf="@id/sumRepo"
+        app:layout_constraintTop_toBottomOf="@+id/sumRepo" />
+
+
+    <TextView
+        android:id="@+id/sumFollower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/_90"
+        style="@style/TextColor"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/follower"
+        style="@style/TextColor"
+        android:fontFamily="@font/poppins"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/sumFollower"
+        app:layout_constraintEnd_toEndOf="@id/sumFollower"
+        app:layout_constraintTop_toBottomOf="@+id/sumFollower" />
+
+    <TextView
+        android:id="@+id/sumFollowing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/_90"
+        style="@style/TextColor"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/following"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        style="@style/TextColor"
+        app:layout_constraintEnd_toEndOf="@id/sumFollowing"
+        app:layout_constraintStart_toStartOf="@id/sumFollowing"
+        app:layout_constraintTop_toBottomOf="@+id/sumFollowing" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GithubFavoritesApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_home">Fragment Home</string>
+    <string name="find_user">Cari user yang kamu inginkan</string>
+    <string name="username">Nama User</string>
+    <string name="location_user">Location</string>
+    <string name="user_github">User Github</string>
+    <string name="favorite">Favorite</string>
+    <string name="company">Company</string>
+    <string name="city">Location</string>
+    <string name="_90">90</string>
+    <string name="repository">Repository</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <string name="on_dark_mode">Tekan ikon di bawah ini\nuntuk <b>mode gelap</b></string>
+    <string name="on_light_mode">Tekan ikon di bawah ini\nuntuk <b>mode terang</b></string>
+</resources>
